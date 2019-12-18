@@ -1,0 +1,150 @@
+
+
+/***estilos de seccion deporte*/
+.dep-secc1{
+	height: 140px;
+	width: 97%;
+	background: #333;
+	display: flex;
+    margin-bottom: 230px;
+	margin-top:30px;
+	margin-left: 20px;
+	margin-right: 50px;
+	justify-content:space-around;
+
+}
+.dep-secc1 .caja1{
+	height: 100%;
+	width: 10%;
+	color: #fff;
+	position:relative;
+	top:30px;	
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.imagen1{
+	height: 450px;
+	width: 350px;
+	background: url("../imagenes/insertar.jpg");
+	background-size: cover;
+	position: relative;
+	top: -100px;
+	box-shadow: 0 0 25px #000;
+}
+
+/*****seccion 2****/
+.seccion2{
+	display: flex;
+	
+	flex-wrap: wrap;
+width: 90%;
+margin:100px auto;
+}
+.item{
+	height: 300px;
+	width: 30%;
+	text-align: center;
+
+}
+
+.item span{
+	font-size: 40px;
+	color:  #cad808 ;
+}
+
+.item p{
+	margin-top: 20px;
+	text-align: justify
+}
+
+
+/****estilos de galeria de imagenes **/
+.cont-imagenes{
+
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin:-200px auto;
+	justify-content: center;
+	align-items: center;
+	height: 1000px;
+	margin-bottom: 200px;
+	perspective: 800;
+	transform-style: preserve-3d;
+}
+.seccion-img{
+	box-sizing: border-box;
+	height: 555px;
+	width: 29%;
+	margin:35px 25px;
+	border-radius: 10px;
+	box-shadow: 0 0 25px #000;
+	transition: 0.2s
+}
+.seccion-img .img{
+	height: 250px;
+	width: 100%;
+	border-radius: 10px  10px 0 0;
+	
+}
+.seccion-img h2{
+	margin-top:10px;
+}
+.seccion-img h2,h3{
+	margin-bottom: 25px;
+}
+.seccion-img:hover{
+	transform: scale(.9);
+}
+.imagen-1{
+	background: url("../imagenes/Deporte1.jpg");
+	background-size: cover;
+	
+}
+.imagen-2{
+	background: url("../imagenes/Deporte2.jpg");
+	background-size: cover;
+	
+	
+}
+.imagen-3{
+	background: url("../imagenes/Deporte3.jpg");
+	background-size: cover;
+
+	
+}
+.imagen-4{
+	background: url("../imagenes/Deporte4.jpg");
+	background-size: cover;	
+}
+
+.imagen-5{
+	background: url("../imagenes/niño2.jpg");
+	background-size: cover;
+}
+
+.imagen-6{
+	background: url("../imagenes/nadar.jpg");
+	background-size: cover;	
+}
+.seccion-img h2{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold
+}
+.seccion-img  h3{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin-top: -20px;
+	color: #cccccc;
+}
+.seccion-img p{
+	text-align: justify;
+	width: 90%;
+	margin: auto
+}
+hr{
+	margin-bottom: 20px;
+}
+}

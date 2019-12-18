@@ -1,0 +1,16 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+div#general{
+	margin:auto;
+	margin-top:50;
+	width:1000px;
+	height:800px;
+	background-color:black;
+}
+div#ofertas{
+	width:300;
+	height:500;
+	background-color:red;
+}

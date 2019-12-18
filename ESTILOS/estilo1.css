@@ -1,0 +1,426 @@
+﻿body{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,.6), 
+	rgba(0,0,0,.6)),
+	 url("../imagenes/colegio2.jpg");
+	height: 600px;
+	width: 1310px;
+	background-size: cover;
+	margin-bottom:60px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.contenedor2 {
+    
+    display: flex;
+    width: 680px;
+    height:90px;
+    color: #fff;
+    font-size: 40px;
+	line-height: 40px;
+	    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    
+    overflow: hidden;
+    }
+    
+    ul {
+     list-style: none;
+     padding-left: 10px;
+     animation: cambiar 7s infinite;
+     
+    }
+    
+    ul, p {
+     margin: 0;
+    }
+ 
+ @keyframes  cambiar {
+  
+   0%{ margin-top: 0px;}
+   20%{ margin-top: 0px;}
+
+   25%{ margin-top: -90px;}
+   50%{ margin-top: -90px;}
+
+   55%{ margin-top: -180px;}
+   80%{ margin-top: -180px;}
+
+   85%{ margin-top: -90px;}
+   95%{ margin-top: -90px;}
+
+  100% { margin-top: 0px;}
+  
+ }
+.conteiner{
+	width: 85%;
+	margin:0 auto;
+	padding-top: 20px;
+	color: #fff;
+	display: flex;
+	font-family: 'Trebuchet MS';
+	justify-content: space-between;
+	
+	
+}
+
+.menu ul{
+	display: flex;
+
+}
+.vinculos li{
+	display:flex;
+	list-style: none;
+	margin-left: 20px;
+	padding: 10px;
+	text-decoration: none;
+	
+
+	
+}
+.vinculos a:hover{
+	cursor: pointer;
+	border-bottom: 2px solid #fff;
+	list-style: none;
+	
+
+}
+.Vinculos a{
+	display:flex;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+.button{
+border:none;
+width: 30%;
+text-align: center;
+margin:auto;
+padding:10px;
+color: #fff;
+font-family: sans-serif;
+background: #f7372e ;
+cursor: pointer;
+}
+.vinculos{
+	display:flex;
+	cursor: pointer;
+	border-bottom: 3px solid #fff;
+	text-decoration: none;
+	color: #fff;
+}
+
+.noticias{
+	margin:0px;
+	padding:0px;
+	
+}
+div#noticias{
+	margin:auto;
+	margin-top:50px;
+	width:1348px;
+	height:1000px;
+	border:1px solid black;
+}
+div#noticia1{
+	float:right;
+	margin:left;
+	margin-top:0px;
+	margin-bottom:30px;
+	width:380px;
+	height:1000px;
+	border:3px solid black;}
+div#noticia2{
+	margin-top:0px;
+	margin-left:30px;
+	float:left;
+	width:635px;
+	height:1100px;
+	border:3px solid black;
+}
+.noticia1{
+	border:2px solid blue;
+	height:200px;
+	width:200px;
+}
+
+.noticia1 .img-1{
+	height:100px;
+	width:100px;
+	border:2px solid red;
+}
+
+/********estilos de seccion noticias *****/
+
+.titulo:hover{
+	cursor: pointer;
+border-bottom: 2px solid black;
+}
+.contenedor{
+     cursor: pointer;
+        width: 100%;
+        display: flex;
+	   margin-bottom: 300px;
+	   height: 750px;
+    }
+    .cont-1{
+       margin-right: 20px;
+        height:510px;
+		margin-left: 40px;
+		background-color: rgb(255, 255, 255);
+    }
+    h1{
+        margin-bottom: 50px;
+        margin-top: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+
+    }
+    .cont-1 img{
+        height: 300px;
+		width: 85%;
+		margin-right: 40px;
+		
+    }
+   h5{
+	
+   }
+   
+    .div-img{
+		margin-bottom: 0px;
+		margin-left:0px;
+        
+    }
+   
+
+    /*****seccion lateral****/
+    .cont-2{
+        width: 70%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+       
+    }
+    img{
+        height: 150px;
+        width:130px;
+    }
+    .bloque{
+		
+       margin: 58px 0;
+        width:270px;
+        height: 258px;
+        margin-bottom: 95px;
+    }
+
+    .bloque img{
+        width: 100%;
+    }
+    hr{
+        border: 2px solid black;
+        width: 65%;
+    }
+
+
+
+
+
+
+/*****************/
+
+	/****estilos de la galeria****/
+		.galeria{
+			height: 280px;
+			width: 90%;
+			margin:130px auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			cursor: pointer;
+		}
+
+		.caja{
+			height: 400px;
+			width: 25%;
+			border: 1px solid #333;
+			padding: 10px;
+			transition: .6s;
+			box-shadow: 0 0 15px #333;
+		}
+		.caja img{
+			height: 220px;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.caja:hover{
+			transform: scale(1.1);
+		}
+
+		
+		}
+	.caja1 p{
+		padding:0 10px;
+		text-align: justify;
+		}
+
+/****estilos seccion de comentarios***/
+
+.comentarios{
+	height: 270px;
+	width: 100%;
+	background: #333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.sec-com{
+	height: 90%;
+	width: 25%;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+}
+.sec-com img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+}
+
+}
+.sec-com h3{
+margin-bottom: 30px;
+}
+.sec-com p{
+	position: relative;
+	top: -20px;
+	text-align: justify;
+}
+
+/***estilos seccion de info***/
+
+.info{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin:auto;
+	margin-bottom: 150px;
+}
+
+.sec-info{
+	width: 60%;
+	margin: 0 -20px;
+
+}
+.sec-info h3{
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+.info img{
+	width: 400px;
+	height: 300px;
+	box-shadow: 0 0 17px #333;
+	border: 2px solid #333;
+	padding: 10px;
+}
+
+
+/******estilos del footer**/
+
+footer{
+	position: relative;
+	top: 30px;
+	height: 280px;
+	width: 97%;
+	bottom: 0;
+	background: #333;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 20px;
+	margin-right: 10px;
+
+}
+.footer-info{
+	width: 40%;
+	height: 200px;
+	color: #fff;
+	margin-top: 40px;
+
+}
+
+
+.redes-sociales{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+ .redes-sociales li{
+	display: flex;
+	margin-top: 10px;
+	padding: 15px;
+	height: 40px;
+	width:40px;
+	border-radius: 50%;
+	margin: 10px -80px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.3em;
+	
+}
+
+.facebook{
+	background:  #086af3;
+}
+.youtube{
+	background:  #f7372e ;
+}
+.whatsapp{
+	background:  #43d703 ;
+}
+/**********************/
+.contacto{
+	color: #fff;
+	margin-top: 40px;
+	
+	height: 180px;
+	width: 350px;
+}
+.contacto p{
+	font-size: 17px;
+}
+.contacto {
+	padding: 10px 5px;
+}
+
+.autor{
+	height: 20px;
+	width: 100%;
+	background: #000;
+	
+}

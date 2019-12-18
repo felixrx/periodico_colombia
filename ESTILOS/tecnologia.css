@@ -1,0 +1,134 @@
+
+/*****estilos de seccion informacio tecnologia***/
+.info-tec{
+	width: 80%;
+	margin: 100px auto;
+}
+.info-tec h1{
+	text-align: center;
+	font-weight: bold;
+	font-family: ;
+	margin-bottom: 20px;
+}
+.info-tec p{
+	width: 70%;
+	text-align: justify;
+	margin:auto;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+/****estilos de tecnologia galeriaaa****/
+.galeria-tec{
+	height: 1000px;
+	width: 97%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	perspective: 1200px;
+	background: black;
+	cursor: pointer;
+	margin-left: 20px;
+    margin-right: 10px;
+}
+
+.gal-hijo{
+	height: 450px;
+	width: 25%;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 1s;
+	
+	margin: 0 10px;
+
+}
+.gal-hijo:hover{
+	transform: rotateY(180deg);
+}
+.lado{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+	border: 4px solid #fff;
+		border-radius: 10px;
+}
+
+.delante{
+
+}
+
+.atras{
+	transform: rotateY(180deg);
+	
+}
+
+.item1{
+	background: url("../imagenes/Tec1.JPG");
+	background-size: cover;
+}
+
+.item2{
+	background: url("../imagenes/Tec2.JPG");
+	background-size: cover;
+}
+.item3{
+	background: url("../imagenes/Tec3.JPG");
+	background-size: cover;
+}
+.item4{
+	background: url("../imagenes/Tec4.JPG");
+	background-size: cover;
+}
+.item5{
+	background: url("../imagenes/Tec5.JPG");
+	background-size: cover;
+}
+.item6{
+	background: url("../imagenes/Tec6.JPG");
+	background-size: cover;
+}
+.imagen{
+	height: 200px;
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+.atras .img1{
+	
+	background: url("imagenes/barra.jpg");
+	background-size: cover;
+
+	
+}
+/*****estilos del lado atras :D;*/
+.atras .img2{
+	
+	background: url("imagenes/barra.jpg");
+	background-size: cover;
+	
+
+}
+.atras .img3{
+	
+	background: url("imagenes/barra.jpg");
+	background-size: cover;
+	
+}
+
+.atras h1{
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.atras p{
+	font-family: sans-serif;
+	color: #fff;
+	width: 90%;
+	margin: auto;
+}
